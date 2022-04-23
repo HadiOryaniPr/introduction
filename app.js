@@ -5,6 +5,7 @@ const modalCloseBtn = document.querySelector(".modal-close-btn");
 const banner = document.querySelector(".banner");
 socialMediaBnt.addEventListener("click", () => {
   const notifi = document.getElementById("Up").play();
+  navigator.vibrate(350);
 });
 
 modalCloseBtn.addEventListener("click", () => {
