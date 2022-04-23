@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #21222d;
+}
+
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
+.center-img {
+    background: rgb(223,20,68);
+    background: linear-gradient(43deg, rgba(223,20,68,1) 0%, rgba(223,20,174,1) 100%);
+}
+
+.heading1 {
+    background: linear-gradient(43deg, rgba(223,20,68,1) 0%, rgba(223,20,174,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.html_prg {
+    background-color: #dd4b25;
+}
+
+.sass_prg {
+    background-color: #C66394;
+}
+
+.bs_prg {
+    background-color: #8512F3;
+}
+
+.git_prg {
+    background-color: #E84E31;
+}
+
+.instagram_icon {
+    font-size: 22px;
+    vertical-align: middle;
+}
+
+.toast-body-container {
+    background: linear-gradient(43deg, rgb(233, 55, 88) 0%, rgba(230,33,90,1) 100%);
+}
+

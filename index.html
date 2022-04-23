@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">\
+</head>
+<body onload="toast()">
+    
+
+    <div class="container p-5 d-grid justify-content-center">
+        <div class="row">
+        <div class="col">
+             <div class="card bg-transparent border-0">
+                 <img src="./image/Untitled-16.png.jpg.png" style="max-width: 300px;" class="shadow-lg rounded-circle center-img" alt="">
+                 <div class="card-body mt-3 card-body-container">
+                    <div class="card-title fw-bold display-5 text-white text-center heading1">HadiOryani</div>
+                    <div class="card-text fw-light text-center text-white">
+                        <p><i class="fas fa-code me-2"></i>FrontEnd Developer From "Shiraz"</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="display-6 text-center text-white mb-5">My Skills</div>
+
+    <div class="container w-50">
+        <div class="row">
+            <div class="col">
+                <label class="text-white fw-bold mb-1">HTML</label>
+                <div class="progress mb-5" style="height: 5px;">
+                    <div class="progress-bar html_prg progress-bar-striped progress-bar-animated" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  
+                  <label class="text-white fw-bold mb-1">CSS</label>
+                  <div class="progress mb-5" style="height: 5px;">
+                    <div class="progress-bar bg-primary progress-bar-striped progress-bar-animated" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+
+                  <label class="text-white fw-bold mb-1">JavaScript</label>
+                  <div class="progress mb-5" style="height: 5px;">
+                      <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+
+                    <label class="text-white fw-bold mb-1">Sass</label>
+                    <div class="progress mb-5" style="height: 5px;">
+                        <div class="progress-bar sass_prg progress-bar-striped progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+
+                      <label class="text-white fw-bold mb-1">Bootstrap</label>
+                      <div class="progress mb-5" style="height: 5px;">
+                          <div class="progress-bar bs_prg progress-bar-striped progress-bar-animated" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+
+                        <label class="text-white fw-bold mb-1">Git</label>
+                      <div class="progress mb-5" style="height: 5px;">
+                          <div class="progress-bar git_prg progress-bar-striped progress-bar-animated" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+            </div>
+        </div>
+    </div>
+
+<div class="container">
+    <div class="row">
+    <div class="col">
+    <div class="position-fixed bottom-0 end-0 pe-3 pb-3" style="z-index: 11">
+  <div id="newToast" class="toast border-0" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header border-0 bg-dark">
+     <span class="spinner-grow spinner-grow-sm bg-danger me-2"></span>
+      <strong class="me-auto">HadiOryani</strong>
+      <button type="button" class="btn-close bg-danger" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body toast-body-container border-0">
+     
+     <a href="https://www.instagram.com/hadioryanipr/" target="_blank" class="btn py-1 px-2 ms-2 fw-bold">
+         Follow me on
+        <i class="fab fa-instagram ms-1 instagram_icon"></i>
+     </a>
+        </div>
+        </div>
+     </div>
+    </div>
+    </div>
+</div>
+
+
+    <script src="./app.js"></script>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./shake.js"></script>
+    <script>
+        var newShake = new Shake();
+        window.addEventListener('shake', () => {
+            window.open('https://www.instagram.com/hadioryanipr/');
+        })
+
+    </script>
+</body>
+</html>
