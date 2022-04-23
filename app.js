@@ -1,8 +1,12 @@
 "use strict";
 
-const newToast = document.getElementById("newToast");
+const socialMediaBnt = document.querySelector(".socialMedia");
+const modalCloseBtn = document.querySelector(".modal-close-btn");
 
-function toast() {
-   let toast = new bootstrap.Toast(newToast);
-   toast.show();
-}
+socialMediaBnt.addEventListener("click", () => {
+  const notifi = document.getElementById("Up").play();
+});
+
+modalCloseBtn.addEventListener("click", () => {
+  const donwNotifi = document.getElementById("Down").play();
+});

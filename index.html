@@ -9,9 +9,8 @@
     <link rel="stylesheet" href="./style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">\
 </head>
-<body onload="toast()">
+<body>
     
-
     <div class="container p-5 d-grid justify-content-center">
         <div class="row">
         <div class="col">
@@ -21,6 +20,30 @@
                     <div class="card-title fw-bold display-5 text-white text-center heading1">HadiOryani</div>
                     <div class="card-text fw-light text-center text-white">
                         <p><i class="fas fa-code me-2"></i>FrontEnd Developer From "Shiraz"</p>
+                        
+                        <button type="button" class="btn socialMedia" data-bs-toggle="modal" data-bs-target="#socialMedia">
+                            Follow Me In Social Network
+                          </button>
+                          <div class="modal fade" data-bs-backdrop="static" id="socialMedia" tabindex="-1" aria-labelledby="socialMedia" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                              <div class="modal-content bg-dark">
+                                <div class="modal-body bg-dark">
+                                  <a href="https://www.instagram.com/hadioryanipr/" target="_blank">
+                                      <i class="fab fa-instagram"></i>
+                                  </a>
+                                  <a href="https://www.linkedin.com/in/hadi-oryani-73029322a/" target="_blank">
+                                      <i class="fab fa-linkedin-in ms-4"></i>
+                                  </a>
+                                  <a href="https://github.com/HadiOryaniPr/" target="_blank">
+                                      <i class="fab fa-github ms-4"></i>
+                                  </a>
+                                </div>
+                                <div class="modal-footer bg-dark">
+                                  <button type="button" class="btn btn-danger modal-close-btn" data-bs-dismiss="modal">Close</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                     </div>
                 </div>
             </div>
@@ -61,34 +84,14 @@
                         <label class="text-white fw-bold mb-1">Git</label>
                       <div class="progress mb-5" style="height: 5px;">
                           <div class="progress-bar git_prg progress-bar-striped progress-bar-animated" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
+                    </div>
             </div>
         </div>
     </div>
 
-<div class="container">
-    <div class="row">
-    <div class="col">
-    <div class="position-fixed bottom-0 end-0 pe-3 pb-3" style="z-index: 11">
-  <div id="newToast" class="toast border-0" role="alert" aria-live="assertive" aria-atomic="true">
-    <div class="toast-header border-0 bg-dark">
-     <span class="spinner-grow spinner-grow-sm bg-danger me-2"></span>
-      <strong class="me-auto">HadiOryani</strong>
-      <button type="button" class="btn-close bg-danger" data-bs-dismiss="toast" aria-label="Close"></button>
-    </div>
-    <div class="toast-body toast-body-container border-0">
-     
-     <a href="https://www.instagram.com/hadioryanipr/" target="_blank" class="btn py-1 px-2 ms-2 fw-bold">
-         Follow me on
-        <i class="fab fa-instagram ms-1 instagram_icon"></i>
-     </a>
-        </div>
-        </div>
-     </div>
-    </div>
-    </div>
-</div>
 
+    <audio src="./sound/mixkit-bubble-pop-up-alert-notification-2357.wav" id="Up"></audio>
+    <audio src="./sound/mixkit-dry-pop-up-notification-alert-2356.wav" id="Down"></audio>
     <script src="./app.js"></script>
     <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
 

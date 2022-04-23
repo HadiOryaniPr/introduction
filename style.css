@@ -53,12 +53,31 @@ label:focus,
     background-color: #E84E31;
 }
 
-.instagram_icon {
-    font-size: 22px;
-    vertical-align: middle;
+a {
+    text-decoration: none;
 }
 
-.toast-body-container {
-    background: linear-gradient(43deg, rgb(233, 55, 88) 0%, rgba(230,33,90,1) 100%);
+.fa-instagram {
+    font-size: 30px;
+    color: #f8208c;
 }
 
+.fa-linkedin-in {
+    font-size: 30px;
+    color: #126cf3;
+}
+
+.fa-github {
+    font-size: 30px;
+    color: #fff;
+}
+
+.socialMedia {
+    color: #fffffff1;
+    background: linear-gradient(43deg, rgba(223,20,68,1) 0%, rgba(223,20,174,1) 100%);
+    font-weight: 700;
+}
+
+.socialMedia:hover {
+    color: #fff;
+}
