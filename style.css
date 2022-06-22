@@ -114,6 +114,10 @@ circle:nth-of-type(4) {
     background-color: #E84E31;
 }
 
+.tailwindcss_prg {
+    background-color: #0ea5e9;
+}
+
 a {
     text-decoration: none;
 }
