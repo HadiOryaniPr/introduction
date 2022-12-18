@@ -7,7 +7,6 @@ socialMediaBnt.addEventListener("click", () => {
   const notifi = document.getElementById("Up").play();
   navigator.vibrate(350);
 });
-
 modalCloseBtn.addEventListener("click", () => {
   const donwNotifi = document.getElementById("Down").play();
 });
